@@ -1,0 +1,28 @@
+// Digital output pin to power the flex sensor
+const int powerPin = 4;
+
+// Analog pin to read voltage at the junction
+const int analogPin = A0;
+
+void setup() {
+  Serial.begin(9600);  // Stable for Uno
+
+  pinMode(powerPin, OUTPUT);
+  digitalWrite(powerPin, LOW);  // Start with sensor off
+
+  Serial.println("Flex sensor individual tester");
+  Serial.println("Ensure second flex sensor is acting as resistor to GND");
+}
+
+void loop() {
+  digitalWrite(powerPin, HIGH);  // Power the sensor
+  delay(10);                     // Allow voltage to stabilize
+
+  int reading = analogRead(analogPin);  // Read voltage divider output
+
+  digitalWrite(powerPin, LOW);   // Turn off sensor between reads
+
+  Serial.print("Analog Reading: ");
+  Serial.println(reading);
+
+  delay(300);  // Adjust for how quickly you want updates
