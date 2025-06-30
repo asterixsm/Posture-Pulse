@@ -1,0 +1,12 @@
+#define VIBRATION_PIN 10  // Use any available GPIO pin
+
+void setup() {
+  pinMode(VIBRATION_PIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(VIBRATION_PIN, HIGH);  // Turn on motor
+  delay(1000);                        // Vibrate for 1 second
+  digitalWrite(VIBRATION_PIN, LOW);   // Turn off
+  delay(1000);                        // Wait for 1 second
+}
