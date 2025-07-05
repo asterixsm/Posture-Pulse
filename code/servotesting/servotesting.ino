@@ -1,18 +1,25 @@
 #include <Servo.h>
-Servo test;
+
+Servo myServo;
 
 void setup() {
-  test.attach(9);
+  myServo.attach(9);           // Connect servo signal to D9
   Serial.begin(9600);
-  test.write(-180);
+  Serial.println("Servo Test Starting...");
 }
 
 void loop() {
-  // Sweep 0→180° and back
-  
-  for (int angle = 0; angle <= 160; angle += 5) {
-    test.write(angle);
-    delay(30);
+  // Sweep from 0 to 180 degrees
+  for (int pos = 0; pos <= 180; pos += 5) {
+    myServo.write(pos);
+    delay(200);
   }
-  
+
+  // Sweep back from 180 to 0 degrees
+  for (int pos = 180; pos >= 0; pos -= 5) {
+    myServo.write(pos);
+    delay(200);
+  }
+
+  delay(1000); // Pause before next cycle
 }
