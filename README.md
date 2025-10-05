@@ -63,7 +63,7 @@ Creative Commons Attribution 4.0 International License ([CC BY 4.0](http://creat
 
 ## 📬 Contact / Team
 
-- Paarth Balachandran — [GitHub](https://github.com/yourgithub) | paarth.balachandran@gmail.com  
+- Paarth Balachandran — [GitHub](https://github.com/asterixsm) | paarth.balachandran@gmail.com  
 - Team members: [Paarth Balachandran, Yuvansh Shah, Meha Sanghvi, Agastya Mundhe]  
 
 > _Note: Project initially developed under Makers Asylum Innovation School program; now submitted independently by the creators._
