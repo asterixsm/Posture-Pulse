@@ -12,6 +12,8 @@ This repository houses the **Posture Pulse project**, an open-source wearable de
 
 **Solution:** Posture Pulse provides **real-time haptic feedback** whenever the wearer slouches, encouraging correct posture through **gentle mechanical cues**.  
 
+This project was initially developed under Makers Asylum Innovation School. It is now submitted independently by the original creators for OSHWA certification.
+
 ---
 
 ## 🛠 Documentation & Wiki Pages
