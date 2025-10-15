@@ -1,7 +1,6 @@
 | Part Name | Description | Quantity |
 |------------|-------------|-----------|
 | Seeed Studio XIAO ESP32-C3 | Tiny ESP32-based board ideal for wearable devices (replace ESP32 DevKit) | 1 |
-| Flex Sensor 2.2″ | Spectra Symbol 2.2″ bend sensor (FS-L-055-253-MP) | 5 |
 | Coin Vibration Motor (8 mm) | ERM coin motor, 8 mm × 3.4 mm, 3 V | 1 |
 | Slide Switch (SPDT, pack of 10) | Reliable on/off switch (source from robu or hubtronics) | 1 pack |
 | 65-pcs Jumper Wire Pack | Flexible jumper wires (get from robu or local vendor) | 1 pack |
